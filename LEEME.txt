@@ -1,0 +1,14 @@
+MI CONTROL NUTRICIONAL 2.0 — PWA
+
+Incluye: comidas con foto y texto, calorías por día, objetivo 2100 kcal, pesos con meta 69 kg, gráficos y copias JSON completas.
+
+INSTALAR DESDE UN TELÉFONO ANDROID SIN PC:
+1. En Chrome abre github.com, crea una cuenta si no tienes y un repositorio público nuevo (ej.: mi-control-nutricional). Para subir los archivos y carpetas de este ZIP usa github.com en modo 'Sitio para ordenadores', opción Add file > Upload files. Mantén los archivos en la raíz del repositorio y los iconos dentro de icons/.
+2. En Settings > Pages selecciona Deploy from a branch, rama main, carpeta / (root), Save.
+3. Espera a que GitHub Pages publique el sitio en https://TU-USUARIO.github.io/mi-control-nutricional/ (la dirección exacta se muestra en Pages).
+4. Abre esa dirección en Chrome Android y usa menú ⋮ > Instalar aplicación / Añadir a pantalla de inicio.
+5. Abre la aplicación desde su icono. Una vez cargada por primera vez con Internet, los archivos básicos quedan disponibles sin conexión.
+
+DATOS: se guardan en IndexedDB del navegador en ESTE dispositivo y ESTE origen web. No se envían al servidor de GitHub. No uses navegación incógnita. No borres datos del sitio ni desinstales sin antes exportar copia. Usa Exportar respaldo JSON (incluye fotos), guarda el archivo en Drive y restaura desde el mismo archivo cuando lo necesites. Si cambias la URL de publicación, los datos no se trasladan automáticamente.
+
+LIMITACIONES: las calorías se introducen manualmente (no hay reconocimiento automático de imágenes). El peso se registra por día. Fotos comprimidas para ahorrar espacio. El espacio disponible depende del navegador; el almacenamiento local no es garantía absoluta de permanencia. Se requiere HTTPS para la instalación y el service worker. La URL file:// no permite instalar la PWA. Publicar el repositorio como público hace visible el CÓDIGO, pero no tus registros guardados localmente; nunca subas copias de seguridad al repositorio público.
